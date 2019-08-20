@@ -1,4 +1,4 @@
-﻿___INFO___
+___INFO___
 
 {
   "displayName": "Adtraction Tag",
@@ -94,15 +94,16 @@ ___WEB_PERMISSIONS___
 
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
-var log = require('logToConsole');
-log('data =', data);
-
+const log = require('logToConsole');
+const encodeUriComponent = require('encodeUriComponent');
 const injectScript = require('injectScript');
 
-const url = 'https://adtr.io/jsTag?ap=' + data.ap;
+log('data =', data);
+
+const url = 'https://adtr.io/jsTag?ap=' + encodeUriComponent(data.ap);
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
 ___NOTES___
 
-Created on 2019-08-14 11:27:21
+Created on 2019-08-20 10:12:15
