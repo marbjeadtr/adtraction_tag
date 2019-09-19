@@ -2,7 +2,7 @@ ___INFO___
 
 {
   "displayName": "Adtraction Tag",
-  "description": "Tracking for the Adtraction affiliate network. The Adtraction Tag needs to be set up to fire on all pages except the confirmation page.",
+  "description": "Conversion measurement for the Adtraction affiliate network. Needs to be set up to fire on all pages except the purchase confirmation page.",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -106,4 +106,4 @@ injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 ___NOTES___
 
-Created on 2019-08-20 10:12:15
+Created on 2019-09-19 15:38:11
