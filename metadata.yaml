@@ -1,0 +1,5 @@
+homepage: "www.adtraction.com",
+documentation: "https://adtraction.com/gtmtemplate.htm",
+versions:
+  - sha: 43c9c23b195971ae7ff74b00bd222e0cab598767
+    changeNotes: Initial Version
