@@ -85,7 +85,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://adtr.io/jsTag?ap=*"
+                "string": "https://gtm.adt313.net/jsTag?ap=*"
               }
             ]
           }
@@ -108,7 +108,7 @@ const injectScript = require('injectScript');
 
 log('data =', data);
 
-const url = 'https://adtr.io/jsTag?ap=' + encodeUriComponent(data.ap);
+const url = 'https://gtm.adt313.net/jsTag?ap=' + encodeUriComponent(data.ap);
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
